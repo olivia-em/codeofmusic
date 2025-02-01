@@ -9,7 +9,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FF5733;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #darkmode:checked ~ * {
@@ -53,11 +54,22 @@ div.weeks {
     flex-wrap: wrap;
 }
 
-div.weeks > h2 {
+a {
+    color: white;
     min-width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 
-a {
-    color: black;
+div.weeks > h2 {
+    min-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
 }
